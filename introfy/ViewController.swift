@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var yearSegmentedControl: UISegmentedControl!
     
+    @IBAction func stepperDidChange(_ sender: UIStepper) {
+        numberOfPetsLabel.text = "\(Int(sender.value))"
+    }
     
     
     

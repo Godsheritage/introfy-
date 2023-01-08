@@ -99,6 +99,9 @@
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="CcW-Yn-U2s">
                                 <rect key="frame" x="262" y="601" width="94" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="t98-Ma-PE0"/>
+                                </connections>
                             </stepper>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="schoolLogo" translatesAutoresizingMaskIntoConstraints="NO" id="FTR-Dk-gJg">
                                 <rect key="frame" x="9" y="81" width="375" height="193"/>
@@ -124,7 +127,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="schoolLogo" width="341" height="263"/>
+        <image name="schoolLogo" width="341.33334350585938" height="263.66665649414062"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
