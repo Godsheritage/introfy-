@@ -9,10 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do any additional setup after loading the view.
-//    }
+    
+    @IBOutlet weak var firstNameTextField: UITextField!
+    @IBOutlet weak var lastNameTextField: UITextField!
+    @IBOutlet weak var schoolNameTextField: UITextField!
+    @IBOutlet weak var morePetsStepper: UIStepper!
+    
+    @IBOutlet weak var morePetsSwitch: UISwitch!
+    
+    @IBOutlet weak var numberOfPetsLabel: UILabel!
+    
+    @IBOutlet weak var yearSegmentedControl: UISegmentedControl!
+    
+    
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
     
     
 
